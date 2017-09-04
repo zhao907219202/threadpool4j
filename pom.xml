@@ -42,12 +42,7 @@
 			<version>2.6</version>
 			<scope>compile</scope>
 		</dependency>
-		<dependency>
-			<groupId>cn.aofeng</groupId>
-			<artifactId>common4j</artifactId>
-			<version>0.2.2</version>
-			<scope>compile</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -76,12 +71,6 @@
 			<groupId>cglib</groupId>
 			<artifactId>cglib-nodep</artifactId>
 			<version>2.2.2</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.easymock</groupId>
-			<artifactId>easymock</artifactId>
-			<version>3.4</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

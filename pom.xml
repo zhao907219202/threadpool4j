@@ -103,6 +103,21 @@
 			<version>1.6.6</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>cn.aofeng</groupId>
+			<artifactId>common4j</artifactId>
+			<version>0.3.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/common4j-0.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>cn.aofeng</groupId>
+			<artifactId>easymock</artifactId>
+			<version>3.4.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libtest/easymock-3.4.jar</systemPath>
+		</dependency>
+
 	</dependencies>
 
 	<build>

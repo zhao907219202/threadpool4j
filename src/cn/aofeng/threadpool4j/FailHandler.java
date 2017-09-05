@@ -3,7 +3,7 @@ package cn.aofeng.threadpool4j;
 /**
  * 当队列满，异步任务无法提交给线程池执行的"失败处理器"。
  * 
- * @author <a href="mailto:aofengblog@163.com">聂勇</a>
+ * @author  聂勇
  */
 public interface FailHandler<T> {
 

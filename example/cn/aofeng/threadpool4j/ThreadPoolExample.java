@@ -31,7 +31,7 @@ public class ThreadPoolExample {
      */
     private static void executeRunnableAnsyTask(ThreadPool threadPool)
             throws InterruptedException {
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 100; i++) {
             threadPool.submit(new RunnableAsynTask());
             threadPool.submit(new RunnableAsynTask(), "other");
             
